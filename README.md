@@ -1,4 +1,4 @@
-# 💈 Projeto Barbearia - API REST
+# 💈 Curso NODE.JS - API REST
 
 Uma API REST completa para gerenciamento de usuários de uma barbearia, desenvolvida com Node.js, Express e MongoDB.
 
