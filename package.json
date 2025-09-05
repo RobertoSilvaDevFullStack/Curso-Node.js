@@ -1,0 +1,45 @@
+{
+  "name": "projeto-barbearia",
+  "version": "1.0.0",
+  "description": "API REST completa para gerenciamento de usuários de barbearia com Node.js, Express e MongoDB",
+  "license": "MIT",
+  "author": "Roberto Silva",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "mongoose", 
+    "api",
+    "rest",
+    "barbearia",
+    "crud"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SEU_USUARIO/projeto-barbearia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SEU_USUARIO/projeto-barbearia/issues"
+  },
+  "homepage": "https://github.com/SEU_USUARIO/projeto-barbearia#readme",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0"
+  }
+}

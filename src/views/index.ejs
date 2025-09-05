@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+    <%- include('partials/head.ejs') %>
+
+<body>
+    <%- include('partials/navbar.ejs') %>
+
+        <div class="content">
+            <% if (users.length> 0) { %> <% users.forEach(user=> { %>
+
+                    <h3 class="tittle">
+                        <%= user.firstName %>
+                            <%= user.lastName %>
+                    </h3>
+
+                    <p>
+                        <%= user.email %>
+                    </p>
+                    <% }); %>
+                        <% } else { %>
+                            <p>Nenhum usuário encontrado.</p>
+                            <% } %>
+        </div>
+
+</body>
+
+</html>
