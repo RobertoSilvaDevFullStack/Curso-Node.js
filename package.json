@@ -15,7 +15,7 @@
     "node",
     "express",
     "mongodb",
-    "mongoose", 
+    "mongoose",
     "api",
     "rest",
     "barbearia",
